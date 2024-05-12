@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* セレクタ共通 */
+body {
+	font-size: 100%;
+	font-family: 'Josefin Sans','Sawarabi Gothic','noto sans', 'noto sans jp', 'sans-serif';
+	color: #4F504F;
+}
+
+img {
+	max-width: 100%;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration-line: none;
+	display: block;
+	cursor: pointer;
+}
+/* セレクタ共通 */
+
+/* class　共通 */
+.inner {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.sec-title {
+	text-align: center;
+	margin-top: 180px;
+	margin-bottom: 100px;
+}
+.sec-title .en {
+	font-size: 48px;
+	letter-spacing: 1.2rem;
+	margin-bottom: 10px;
+}
+.ja {
+	color: #04BF68;
+}
+
+/* class 共通 */
+
+/* header */
+
+#header {
+	background-image: url("../img/topimage.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	height: 100vh;
+}
+#header #navi {
+	background-color: #F2CB05;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 50px;
+	width: 100%;
+	height: 80px;
+	bottom: 200px;
+	
+	position: fixed;
+	z-index: 10;
+}
+
+.fadeIn {
+	transition: all 3s ease;
+}
+
+#header #navi .nav-menu {
+	display: flex;
+	line-height: 80px;
+	
+}
+#header #navi .nav-menu li {
+	margin-right: 40px;
+}
+#header #navi .nav-menu li:last-child {
+	margin-right: 0;
+}
+
+#header #navi .nav-menu li a {
+	color: #F2F2F2;
+}
+
+#header #navi .cv {
+	background-color: #04BF68;
+	width: 150px;
+	height: 50px;
+	border-radius: 15px;
+	margin: 15px 0;
+	line-height: 50px;
+	text-align: center;
+}
+
+#header .me {
+	width: 550px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+
+#header .me .name {
+	font-size: 48px;
+	margin-bottom: 35px;
+}
+
+#header .me .wrapper {
+	background-color: rgba(242,242,242,0.5);
+	height: 200px;
+	text-align: center;
+	padding: 28px 0;
+}
+
+#header .me .text {
+	display: inline-block;
+	text-align: left;
+	line-height: 3rem;
+}
+
+/* service */
+#service .items {
+	display: flex;
+	justify-content: center;
+}
+
+#service .items .item {
+	margin-right: 50px;
+	background-color: rgba(242,242,242,0.8);
+	
+	width: 400px;
+	height: 400px;
+	text-align: center;
+	padding: 25px;
+}
+#service .items .item:last-child {
+	margin-right: 0px;
+}
+
+#service .items .item .en {
+	font-size: 32px;
+}
+
+#service .items .item .ja {
+	margin-bottom: 10px;
+}
+
+#service .items .item img {
+	width: 100px;
+	margin-bottom: 35px;
+}
+
+#service .items .item .text {
+	text-align: left;
+	line-height: 3rem;
+}
+
+/* service */
+
+/* web design */
+/* coding */
+
+#webDesign img,
+#coding img {
+	width: 300px;
+	transition: filter 0.5s ease;
+	
+}
+
+#webDesign img:hover,
+#coding img:hover {
+	filter: blur(3px);
+	-webkit-filter: blur(3px);
+}
+
+#webDesign .items,
+#coding .items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+#webDesign .items .item,
+#coding .items .item{
+	margin-right: 50px;
+	position: relative;
+}
+
+#webDesign .items .item:last-child,
+#coding .items .item:last-child{
+	margin-right: 0;
+}
+
+#webDesign .items .item a,
+#coding .items .item a {
+	color: #F2CB05;
+}
+
+#webDesign .items .item a .readMore,
+#coding .items .item a .readMore {
+	opacity: 0;
+	
+	font-weight: bold;
+	background-color: rgba(79,80,79,0.8);
+	border: 1px solid #F2F2F2;
+	padding: 10px;
+	
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 50%;
+	
+	transition: all 1s ease;
+}
+
+#webDesign .items .item:hover a .readMore,
+#coding .items .item:hover a .readMore {
+	opacity: 1;
+}
+
+/* web design */
+/* coding */
+
+/* photography */
+
+#photography .flex {
+	display: flex;
+	justify-content: center;
+}
+#photography .flex .center img {
+	width: 80%;
+	margin: 0 130px;
+}
+
+#photography .flex .left img,
+#photography .flex .right img {
+	width: 200px;
+	cursor: pointer;
+}
+
+#photography .ex {
+	text-align: center;
+	margin-top: 5px;
+}
+
+/* photography */
+
+
+/* to-top */
+#to-top {
+	position: fixed;
+	bottom: 10px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	z-index: 20;
+}
+
+#to-top img {
+	width: 50px;
+}
+/* to-top */
+
+/* about */
+#about {
+	background-color: #F2E5A0;
+	display: flex;
+	justify-content: center;
+	margin-top: 180px;
+	height: 500px;
+	padding: 100px 0;
+}
+
+#about .image img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 3px solid #F2F2F2;
+	
+	margin: 15px 0;
+	margin-right: 65px;
+	
+}
+
+#about .me .name {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+#about .me .text {
+	line-height: 3rem;
+}
+
+/* about */

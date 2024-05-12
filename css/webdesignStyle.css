@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#navi {
+	background-color: #F2CB05;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 50px;
+	width: 100%;
+	height: 80px;
+	bottom: 200px;
+	
+	position: fixed;
+	z-index: 10;
+}
+
+.fadeIn {
+	transition: all 3s ease;
+}
+
+#navi .nav-menu {
+	display: flex;
+	line-height: 80px;
+	
+}
+#navi .nav-menu li {
+	margin-right: 40px;
+}
+#navi .nav-menu li:last-child {
+	margin-right: 0;
+}
+
+#navi .nav-menu li a {
+	color: #F2F2F2;
+}
+
+#navi .cv {
+	background-color: #04BF68;
+	width: 150px;
+	height: 50px;
+	border-radius: 15px;
+	margin: 15px 0;
+	line-height: 50px;
+	text-align: center;
+}
+
+.designs {
+	display: flex;
+	justify-content: space-between;
+}
+
+.designs .pc {
+	
+	border: 3px solid #4F504F;
+}
+
+.designs .sp {
+	
+	border: 3px solid #4F504F;
+}
