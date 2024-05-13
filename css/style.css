@@ -242,24 +242,34 @@ a {
 
 #photography .flex {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 }
-#photography .flex .center {
-	width: 100%;
-	margin: 0 130px;
+
+#photography .flex .center  {
+	width: 90%;
+	margin: 0 50px;
+}
+
+#photography .flex .left ,
+#photography .flex .right  {
+	width: 10%;
 }
 
 #photography .flex .left img,
 #photography .flex .right img {
-	width: 300px;
 	cursor: pointer;
+	margin-bottom: 50px;
+}
+
+#photography .flex .left img:last-child,
+#photography .flex .right img:last-child {
+	margin-bottom: 0;
 }
 
 #photography .ex {
 	text-align: center;
 	margin-top: 5px;
 }
-
 
 /* photography */
 
