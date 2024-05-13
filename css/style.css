@@ -245,13 +245,13 @@ a {
 	justify-content: center;
 }
 #photography .flex .center img {
-	width: 80%;
+	width: 90%;
 	margin: 0 130px;
 }
 
 #photography .flex .left img,
 #photography .flex .right img {
-	width: 200px;
+	width: 300px;
 	cursor: pointer;
 }
 
@@ -259,6 +259,7 @@ a {
 	text-align: center;
 	margin-top: 5px;
 }
+
 
 /* photography */
 
