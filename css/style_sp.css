@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 500px) {
+	.inner {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.sec-title {
+		margin-top: 120px;
+		margin-bottom: 80px;
+	}
+	.sec-title .en {
+		font-size: 32px;
+		letter-spacing: 0.5rem;
+	}
+	.ja {
+		font-size: 14px;
+	}
+
+	/* class 共通 */
+
+	/* header */
+
+	#header #navi {
+		padding: 0 10px;
+		width: 100%;
+	}
+	
+	#header #navi .nav-menu li {
+		font-size: 12px;
+		margin-right: 10px;
+	}
+
+	#header #navi .nav-menu li a {
+		color: #F2F2F2;
+		margin-right: 0px;
+	}
+
+	#header #navi .cv {
+		width: 80px;
+		height: 50px;
+		border-radius: 5px;
+
+	}
+
+	#header .me {
+		width: 98%;
+		padding: 50px 0;
+	}
+
+	#header .me .name {
+		font-size: 32px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	#header .me .wrapper {
+		height: 200px;
+		padding: 28px 0;
+	}
+
+	#header .me .text {
+		font-size: 13px;
+		line-height: 2rem;
+	}
+
+	/* service */
+	#service .items {
+		display: grid;
+	}
+
+	#service .items .item {
+		margin-bottom: 50px;
+
+		width: 300px;
+		height: 300px;
+		padding: 20px;
+	}
+	#service .items .item:last-child {
+		margin-bottom: 0;
+	}
+
+	#service .items .item .en {
+		font-size: 30px;
+	}
+
+	#service .items .item .ja {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	#service .items .item img {
+		margin-bottom: 20px;
+	}
+
+	#service .items .item .text {
+		font-size: 13px;
+		line-height: 1.5rem;
+	}
+
+	/* service */
+
+	/* web design */
+	/* coding */
+
+	#webDesign .items,
+	#coding .items {
+		display: grid;
+	}
+
+	#webDesign .items .item,
+	#coding .items .item{
+		margin: 25px 0;
+	}
+	#webDesign .items .item:last-child,
+	#coding .items .item:last-child {
+		margin-bottom: 0;
+		border: none;
+	}
+
+	/* web design */
+	/* coding */
+
+	/* photography */
+
+	#photography .flex {
+		display: grid;
+	}
+	#photography .flex .center img {
+		width: 100%;
+		margin: 0;
+	}
+
+	#photography .flex .left img,
+	#photography .flex .right img {
+		width: 30%;
+	}
+
+	#photography .ex {
+		text-align: right;
+		margin-top: 5px;
+		font-size: 12px;
+	}
+
+	/* photography */
+
+	/* to-top */
+	#to-top {
+		bottom: 80px;
+		width: 30px;
+	}
+	/* to-top */
+
+	/* about */
+	#about {
+		flex-direction: column;
+		text-align: center;
+		margin-top: 50px;
+		height: 650px;
+		padding: 50px 0;
+	}
+
+	#about .image img {
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+
+	#about .me .name {
+		font-size: 24px;
+		margin-bottom: 20px;
+		margin-bottom: 30px;
+	}
+
+	#about .me .text {
+		font-size: 14px;
+		line-height: 1.5rem;
+		text-align: left;
+		padding: 0 5px;
+	}
+
+	/* about */
+}

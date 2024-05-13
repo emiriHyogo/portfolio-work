@@ -172,9 +172,10 @@ a {
 
 #webDesign img,
 #coding img {
-	width: 300px;
+	width: 400px;
 	transition: filter 0.5s ease;
-	
+	margin: 5px;
+	outline: thick double #A3D9A6;
 }
 
 #webDesign img:hover,
@@ -194,6 +195,7 @@ a {
 #webDesign .items .item,
 #coding .items .item{
 	margin-right: 50px;
+	margin-bottom: 50px;
 	position: relative;
 }
 
