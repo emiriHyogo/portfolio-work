@@ -103,6 +103,10 @@ a {
 	line-height: 50px;
 	text-align: center;
 }
+#header #navi .cv a {
+	color: #F2F2F2;
+}
+
 
 #header .me {
 	width: 550px;
