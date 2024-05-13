@@ -53,7 +53,7 @@
 	}
 
 	.designs {
-		flex-direction: grid;
+		display: grid;
 	}
 
 	.pc {
