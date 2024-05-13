@@ -85,17 +85,20 @@ body {
 	text-align: center;
 }
 
-.designs {
+.design {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
 }
 
-.designs .pc {
+.pc {
 	width: 40%;
-	margin-right: 100px;
 }
 
-.designs .sp {
+.tablet {
+	width: 30%;
+}
+
+.sp {
 	width: 10%;
 
 }
