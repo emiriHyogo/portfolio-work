@@ -16,6 +16,11 @@ body {
 	margin-bottom: 100px;
 }
 
+#content a:hover {
+	opacity: 0.8;
+	color: #D2D904;
+}
+
 #content h2 {
 	text-align: center;
 	letter-spacing: 0.2rem;
