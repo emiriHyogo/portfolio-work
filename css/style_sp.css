@@ -138,9 +138,18 @@
 		width: 100%;
 	}
 	
+	#photography .flex .left {
+		margin-bottom: 50px;
+	}
+	#photography .flex .right {
+		margin-top: 50px;
+	}
+	
+	
 	#photography .flex .left img,
 	#photography .flex .right img {
 		width: 30%;
+		margin-bottom: 0px;
 	}
 
 	#photography .ex {
@@ -148,7 +157,6 @@
 		margin-top: 5px;
 		font-size: 12px;
 	}
-
 	/* photography */
 
 	/* to-top */
