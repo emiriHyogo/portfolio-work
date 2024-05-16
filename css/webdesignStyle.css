@@ -9,6 +9,10 @@ body {
 	background-color: #4F504F;
 }
 
+a {
+	color: #F2CB05;
+}
+
 #content {
 	width: 1000px;
 	margin: 0 auto;
