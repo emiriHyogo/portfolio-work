@@ -42,6 +42,10 @@ body {
 	
 }
 
+#content dl a {
+	border-bottom: 1ps solid #F2CB05;
+}
+
 #navi {
 	background-color: #F2CB05;
 	display: flex;
