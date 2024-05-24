@@ -42,8 +42,8 @@ body {
 	
 }
 
-#content dl a {
-	border-bottom: 1ps solid #F2CB05;
+a {
+	text-decoration:underline;
 }
 
 #navi {
