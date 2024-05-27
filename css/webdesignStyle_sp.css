@@ -99,4 +99,10 @@
 	}
 
 	/* about */
+
+	/* to-top */
+	#to-top {
+		bottom: 80px;
+		width: 30px;
+	}
 }
