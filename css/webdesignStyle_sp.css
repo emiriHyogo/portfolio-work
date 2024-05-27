@@ -43,6 +43,7 @@
 	#navi .nav-menu li a {
 		color: #F2F2F2;
 		margin-right: 0px;
+		text-decoration: none;
 	}
 
 	#navi .cv {
